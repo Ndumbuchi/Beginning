@@ -1,0 +1,108 @@
+*{
+    background-color: white;
+}
+.title{
+    font-size: 20px;
+    color: black;
+}
+.topic{
+    font-size: medium;
+    color: white;
+}
+.one{
+    border:grey 20px solid;
+    height: 500px;
+    width: 1000px;
+    margin:auto;
+    background-color: grey;
+}
+.two{
+    border:grey 5px solid;
+    height: 300px;
+    width: 996px;
+    background-color: yellow;
+}
+.third{
+    float: left;
+    border:grey 5px solid;
+    height: 80px;
+    width: 487px;
+    background-color: rgb(128,0,0);
+
+}
+.fourth{
+    float: left;
+    border:grey 5px solid;
+    height: 80px;
+    width: 487px;
+    background-color: rgb(128,0,0);
+
+}
+.a{
+    float: left;
+    
+    border:grey 5px solid;
+    height: 90px;
+    width: 154px;
+    background-color: blue;
+
+}
+.b{
+    display: inline-block;
+    border:grey 5px solid;
+    height: 90px;
+    width: 154px;
+    background-color: blue;
+}
+    
+.c{
+    display: inline-block;
+    border:grey 5px solid;
+    height: 90px;
+    width: 152px;
+    background-color: blue;
+    
+}
+.d{
+    display: inline-block;
+    border:grey 5px solid;
+    height: 90px;
+    width: 152px;
+    background-color: blue;
+}
+.e{
+    display: inline-block;
+    border:grey 5px solid;
+    height: 90px;
+    width: 152px;
+    background-color: blue;
+}
+.f{
+    display: inline-block;
+    border:grey 5px solid;
+    height: 90px;
+    width: 152px;
+    background-color: blue;
+
+}
+
+.tree {
+    border: 3px solid red;
+    outline: 20px dashed blue;
+}
+.bu{
+    background-color: green;
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+
+}
+li{
+    float: left;
+}
+.bu li{
+    display: inline-block;
+    font-size: 20px ;
+    padding: 20px;
+}

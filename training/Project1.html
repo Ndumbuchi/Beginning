@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="refresh" content="1" /> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        display: flex;
+        padding: 50px;
+        justify-content: center;
+      }
+
+      .content-block {
+        border-radius: 6px;
+        width: 700px;
+        max-width: 100%;
+        box-shadow: 0px 0px 5px 1.5px rgba(0, 0, 0, 0.2);
+      }
+
+      .community {
+        background-color: #fff;
+        padding: 20px;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+      }
+
+      .community h2 {
+        color: rgb(57, 160, 178);
+        padding-bottom: 15px;
+      }
+
+      .community h3 {
+        color: rgb(174, 196, 65);
+        padding-bottom: 8px;
+      }
+
+      .community p {
+        color: rgba(95, 95, 95, 0.319);
+        line-height: 1.5rem;
+      }
+
+      .subscription {
+        display: flex;
+        /* flex-wrap: wrap; */
+      }
+
+      .subscription .cta {
+        background-color: rgb(54, 157, 175);
+        color: #fff;
+        padding: 20px;
+        width: 50%;
+      }
+
+      .subscription .cta h3 {
+        letter-spacing: 2px;
+        font-weight: bold;
+      }
+
+      .subscription .cta .amount-block {
+        display: flex;
+        align-items: baseline;
+      }
+
+      .subscription .cta .amount-block .amount {
+        font-weight: bold;
+        padding-right: 10px;
+      }
+
+      .subscription .cta .amount-block small {
+        color: rgba(255, 255, 255, 0.518);
+        letter-spacing: 1.5px;
+      }
+
+      .subscription .cta .cta-desc {
+        margin-top: 7px;
+        margin-block-start: 0;
+      }
+
+      .subscription .cta button {
+        background-color: #aec441;
+        width: 100%;
+        outline: none;
+        padding: 13px;
+        color: #fff;
+        border: #ecff90;
+        border-radius: 7px;
+        cursor: pointer;
+        max-width: 500px;
+        margin-top: 10px;
+        box-shadow: 3px 5px 4px 1.5px rgba(0, 0, 0, 0.126);
+      }
+
+      .subscription .cta button:hover {
+        background-color: #8fa133;
+      }
+
+      .subscription .whyUs {
+        background-color: rgb(67, 193, 204);
+        color: #fff;
+        padding: 20px;
+        width: 50%;
+      }
+
+      .subscription .whyUs p {
+        line-height: 1.5rem;
+        max-width: 200px;
+        color: rgba(255, 255, 255, 0.677);
+      }
+
+      @media (max-width: 600px) {
+        body {
+          padding: 20px;
+        }
+        .subscription {
+          flex-wrap: wrap;
+        }
+
+        .subscription .cta {
+          width: 100%;
+        }
+
+        .subscription .whyUs {
+          width: 100%;
+        }
+      }
+    </style>
+    <body>
+      <div class="content-block">
+        <div class="community">
+          <h2>Join our community</h2>
+          <h3>30-day hassle-free money back guarantee</h3>
+          <p>
+            Gain access to our full libraty of tutorials along with epert code
+            reviews.<br />
+            Perfect for any developer who are serious about honing their new
+            skills.
+          </p>
+        </div>
+        <div class="subscription">
+          <div class="cta">
+            <h3>Monthly Subscription</h3>
+            <div class="amount-block">
+              <h1 class="amount">$29</h1>
+              <small>per month</small>
+            </div>
+            <p class="cta-desc">Full access for less than $1 a day.</p>
+            <button type="button" onclick="onSignUp()">Sign Up</button>
+          </div>
+          <div class="whyUs">
+            <h2>Why Us</h2>
+            <p>
+              Tuturials by industry experts peer & expert code reviews coding
+              exercises. access to our Github repos community forums and
+              flashcard decks New Videos every week.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        function onSignUp() {
+          console.log('Yay!, i signed up!');
+        }
+      </script>
+    </body>
+  </head>
+</html>
